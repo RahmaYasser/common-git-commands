@@ -6,30 +6,30 @@ This is a cheatsheet of common git commands with simple explanation for every co
 ### */
 
 #### why git and github?
-1. to keep track of project snapshots. //git
-2. to coordenate work between members of the team remotely. //github
+##### 1. to keep track of project snapshots. //git
+##### 2. to coordenate work between members of the team remotely. //github
 
 
-git config --list //shows the config list of your git, like email and username.
-git config --global user.name "RahmaYasser" // example, to set any of config list attributes 
+##### git config --list //shows the config list of your git, like email and username.
+##### git config --global user.name "RahmaYasser" // example, to set any of config list attributes 
 
 
-git status // shows status of working directory
-git status -s // shows status of working directory in short form, m means modefied file, ?? means untracked file
+##### git status // shows status of working directory
+##### git status -s // shows status of working directory in short form, m means modefied file, ?? means untracked file
 
 
-git init //initializing git repo in your local directory.
-git add <file_name> //adding this file to staging area
-git add * OR git add -A OR git add .  //adding all modefied files to staging area 
-git restore --staged <file_name> OR git reset HEAD <file_name> //removing file from staging area to working directory
-git restore <file_name> //undo modification to a file, before you hit git add, you just modefied the file and want to undo modification.
-git commit -m "msg" 
-git push remote local //example git push origin master, -u means to pull and then push
-git pull remote local //example git pull origin master
+##### git init //initializing git repo in your local directory.
+##### git add <file_name> //adding this file to staging area
+##### git add * OR git add -A OR git add .  //adding all modefied files to staging area 
+##### git restore --staged <file_name> OR git reset HEAD <file_name> //removing file from staging area to working directory
+##### git restore <file_name> //undo modification to a file, before you hit git add, you just modefied the file and want to undo modification.
+##### git commit -m "msg" 
+##### git push remote local //example git push origin master, -u means to pull and then push
+##### git pull remote local //example git pull origin master
 
-git log //to see all commits done
-git log // it has a lot of args that you can use to see specific commits you done, refer to this for more info 
-// https://devhints.io/git-log 
+##### git log //to see all commits done
+##### git log // it has a lot of args that you can use to see specific commits you done, refer to this for more info 
+##### // https://devhints.io/git-log 
 
 
 git diff //shows difference between modefied files, 
