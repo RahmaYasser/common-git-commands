@@ -113,7 +113,7 @@ git mv <old_file_name> <new_file_name>
 ### *Tags*
 *Git has the ability to tag specific points in a repository’s history as being important. Typically, 
 people use this functionality to mark release points (v1.0, v2.0 and so on).*<br />  
-*2 types of tags:* <br />  
+*2 types of tags:*  
 *1- annotated: contains a message about tag, the tagger name, email, and date.*  
 *2- lightweight: keeps only the tag name to the specified version of the project.*  
 >creating annotated tag:
