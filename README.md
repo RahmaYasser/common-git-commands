@@ -223,6 +223,17 @@ git stash clear
 ```
 <br />  
 
+### *Reset*
+>move the repository back to a previous commit, discarding any changes made after that commit:
+```
+git reset --hard <commit_id>
+```
+>force a push when git would reject your `git push` because you changed your repo history in your pushing repository:
+```
+git push -f
+```
+<br />  
+
 ### *Dealing with github*
 *note: origin is an alias to the url of github rebo*
 ```
