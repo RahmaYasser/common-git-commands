@@ -90,6 +90,3 @@ git stash show stash@{id} // show what files inside stash
 git stash drop // delete the last stash, and deletes the files inside it
 git stash drop stash@{id} //delete a specific stash and the files inside it
 git stash clear // delete all stashes with files inside them
-
-
-
