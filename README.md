@@ -4,8 +4,9 @@
 ### */
 
 #### why git and github?
-*1. to keep track of project snapshots. //git*
-*2. to coordenate work between members of the team remotely. //github*
+*1. to keep track of project snapshots. //git* 
+
+*2. to coordenate work between members of the team remotely. //github* 
 
 ### *Git basic commands*
 >initializing git repo in your local directory:
