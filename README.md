@@ -1,9 +1,9 @@
 # common-git-commands
 This is a cheatsheet of common git commands with simple explanation for every command. I hope it's useful.
 
-/*
- created by Rahma Yasser
-*/
+###/*
+### created by Rahma Yasser
+###*/
 
 why git and github?
 1. to keep track of project snapshots. //git
