@@ -205,7 +205,7 @@ git stash apply
 ```
 git stash apply stash@{id}
 ```
->to show what files inside a stash:
+>to show which files inside a stash:
 ```
 git stash show stash@{id}
 ```
