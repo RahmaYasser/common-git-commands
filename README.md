@@ -1,6 +1,4 @@
 # common-git-commands
-
-<br />  
 ### /*
 ###  created by Rahma Yasser
 ### */ 
