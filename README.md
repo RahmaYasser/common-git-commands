@@ -18,7 +18,7 @@ git init
 ```
 >adding this file to staging area
 ```
-git add <file_name> >
+git add <file_name>
 ```
 >adding all modified files to staging area:
 ```
