@@ -5,6 +5,7 @@
 #### why git and github?
 *1. to keep track of project snapshots. //git*  
 *2. to coordinate work between members of the team remotely. //github* 
+<br />  
 
 ### *Git basic commands*
 >initializing git repo in your local directory:
@@ -59,6 +60,8 @@ git diff --staged
 ```
 git ls-files 
 ```
+<br />  
+
 ### *configuration*
 *the following commands is to specify Git configuration setting* 
  
@@ -71,7 +74,8 @@ git config --list
 ```
 git config --global user.name "RahmaYasser"
 ```
- 
+<br />  
+
 ### *Removing files and directories*
 >to remove file only from git:
 ```
@@ -89,6 +93,8 @@ git rm -r --cached <dir_name>
 ```
 git rm -rf  <dir_name> 
 ```
+<br />  
+
 ### *Moving and renaming files*
 >moving the file to the directory:
 ```
@@ -98,6 +104,7 @@ git mv <file_name> <directory_name>
 ```
 git mv <old_file_name> <new_file_name>
 ```
+<br />  
 
 ### *Tags*
 *Git has the ability to tag specific points in a repository’s history as being important. Typically, 
@@ -125,6 +132,7 @@ git show <tag_name>
 ```
 git delete --delete <tag_name>
 ```
+<br />  
 
 ### *Branches*
 >for creating new branch:
@@ -151,6 +159,7 @@ git merge <branch_name>
 ```
 git branch -d <branch_name>
 ```
+<br />  
 
 ### *Aliasing*
 *Giving a command an alias name means to rename a command with short or easier name you choose,  example: to rename 'git remote' command with 'git rmt'*
@@ -159,7 +168,8 @@ git branch -d <branch_name>
 git config --global alias.<alias_name> <actual_command>
 ```
 >example: git config --global alias.rmt remote
- 
+<br />  
+
 ### *Stash*
 *stash is a place where you put tracked files that you want to hide inside a stash(box) away from the working directory, you don't want them to be tracked or commited for now*
  
@@ -207,7 +217,8 @@ git stash drop stash@{id}
 ```
 git stash clear
 ```
- 
+<br />  
+
 ### *Dealing with github*
 *note: origin is an alias to the url of github rebo*
 ```
