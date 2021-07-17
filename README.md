@@ -166,7 +166,7 @@ git branch -d <branch_name>
 <br />  
 
 ### *Aliasing*
-*Giving a command an alias name means to rename a command with short or easier name you choose,  example: to rename 'git remote' command with 'git rmt'*
+*Giving a command an alias name means to rename a command with shorter or easier name you choose,  example: to rename 'git remote' command with 'git rmt'*
  
 ```
 git config --global alias.<alias_name> <actual_command>
