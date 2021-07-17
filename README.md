@@ -134,7 +134,7 @@ git show <tag_name>
 ```
 >for deleting a tag
 ```
-git delete --delete <tag_name>
+git tag -d <tag_name>
 ```
 <br />  
 
