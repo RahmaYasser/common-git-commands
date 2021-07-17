@@ -17,7 +17,7 @@ git init
 ```
 git add <file_name> >
 ```
->adding all modefied files to staging area:
+>adding all modified files to staging area:
 ```
 git add * OR git add -A OR git add . 
 ```
@@ -25,7 +25,7 @@ git add * OR git add -A OR git add .
 ```
 git restore --staged <file_name> OR git reset HEAD <file_name> 
 ```
->to undo modification to a file, before you hit git add, you just modefied the file and want to undo modification:
+>to undo modification to a file, before you hit git add, you just modified the file and want to undo modification:
 ```
 git restore <file_name> 
 ```
@@ -37,7 +37,7 @@ git commit -m "msg"
 ```
 git status 
 ```
->to show status of working directory in short form, m means modefied file, ?? means untracked file:
+>to show status of working directory in short form, m means modified file, ?? means untracked file:
 ```
 git status -s
 ```
@@ -48,7 +48,8 @@ git status -s
 git log
 ```
 
->to show difference between modified files, if this command isn't working properly refer to this https://stackoverflow.com/questions/8544211/git-diff-doesnt-give-any-output
+>to show difference between modified files, if this command isn't working properly refer to this
+> https://stackoverflow.com/questions/8544211/git-diff-doesnt-give-any-output
 ```
 git diff 
 ```
@@ -61,30 +62,32 @@ git diff --staged
 git ls-files 
 ```
 ### *configuration*
-*the following commands is to specify Git configuration setting*
->to show the config list of your git, like email and username, ect:
+*the following commands is to specify Git configuration setting* 
+ 
+ 
+>to show the config list of your git, like email and username, etc:
 ```
 git config --list
 ```
->example, to set any of config list attributes 
+>example, to set any of config list attributes like username:
 ```
 git config --global user.name "RahmaYasser"
 ```
-
+ 
 ### *Removing files and directories*
->to remove file only from git database :
+>to remove file only from git:
 ```
 git rm --cached <file_name>
 ```
->to remove file from git database and from working directory:
+>to remove file from git and from working directory:
 ```
 git rm -f <file_name>
 ```
->to remove directory only from git database:
+>to remove directory only from git:
 ```
 git rm -r --cached <dir_name>
 ```
->to remove directory from git database and working directory:
+>to remove directory from git and working directory:
 ```
 git rm -rf  <dir_name> 
 ```
@@ -152,14 +155,16 @@ git branch -d <branch_name>
 ```
 
 ### *Aliasing*
-*Giving a command alias name means to rename a command with short or easier name you choose,  example: to rename 'git remote' command with 'git rmt'*
+*Giving a command an alias name means to rename a command with short or easier name you choose,  example: to rename 'git remote' command with 'git rmt'*
+ 
 ```
 git config --global alias.<alias_name> <actual_command>
 ```
 >example: git config --global alias.rmt remote
-
+ 
 ### *Stash*
 *stash is a place where you put tracked files that you want to hide inside a stash(box) away from the working directory, you don't want them to be tracked or commited for now*
+ 
 >putting files into stash:
 ```
 git stash 
@@ -204,6 +209,7 @@ git stash drop stash@{id}
 ```
 git stash clear
 ```
+ 
 ### *Dealing with github*
 *note: origin is an alias to the url of github rebo*
 ```
