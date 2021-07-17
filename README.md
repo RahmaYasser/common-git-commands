@@ -5,7 +5,7 @@ This is a cheatsheet of common git commands with simple explanation for every co
 ### created by Rahma Yasser
 ### */
 
-why git and github?
+#### why git and github?
 1. to keep track of project snapshots. //git
 2. to coordenate work between members of the team remotely. //github
 
