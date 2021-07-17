@@ -67,7 +67,7 @@ git ls-files
 <br />  
 
 ### *Configuration*
-*The following commands are about specifying Git configuration settings* 
+*The following commands are about specifying git configuration settings* 
  
  
 >to show the config list of your git, like email and username, etc:
