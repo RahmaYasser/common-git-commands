@@ -22,11 +22,23 @@ git add <file_name>
 ```
 >adding all modified files to staging area:
 ```
-git add * OR git add -A OR git add . 
+git add * 
+```
+>or
+```
+git add -A
+```
+>or
+```
+OR git add .
 ```
 >removing file from staging area to the working directory:
 ```
-git restore --staged <file_name> OR git reset HEAD <file_name> 
+git restore --staged <file_name> 
+```
+>or
+```
+git reset HEAD <file_name>
 ```
 >to undo modification to a file, before you hit git add, you just modified the file and want to undo modification:
 ```
