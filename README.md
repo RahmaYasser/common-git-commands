@@ -16,7 +16,7 @@
 ```
 git init 
 ```
->adding this file to staging area
+>adding this file to staging area:
 ```
 git add <file_name>
 ```
@@ -63,6 +63,11 @@ git diff --staged
 >list files in the working directory:
 ```
 git ls-files 
+```
+>move the repository back to a previous commit, discarding any changes made after that commit, please refer to the fifth answer here before using this command:
+>https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit 
+```
+git reset --hard <commit_id>
 ```
 <br />  
 
@@ -223,17 +228,6 @@ git stash clear
 ```
 <br />  
 
-### *Reset*
->move the repository back to a previous commit, discarding any changes made after that commit:
-```
-git reset --hard <commit_id>
-```
->force a push when git would reject your `git push` because you changed your repo history in your pushing repository:
-```
-git push -f
-```
-<br />  
-
 ### *Dealing with github*
 *note: origin is an alias to the url of github rebo*
 ```
@@ -258,6 +252,10 @@ git pull <remote> <branch>
 >to pull the code before pushing it:
 ```
 git push -u <remote> <branch>
+```
+>force a push when git would reject your `git push` because you changed your repo history in your pushing repository:
+```
+git push -f
 ```
 >to get a clone of the repo locally
 ```
