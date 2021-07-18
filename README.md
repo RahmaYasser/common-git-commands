@@ -30,7 +30,7 @@ git add -A
 ```
 >or
 ```
-OR git add .
+git add .
 ```
 >removing file from staging area to the working directory:
 ```
