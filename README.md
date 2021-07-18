@@ -253,7 +253,8 @@ git pull <remote> <branch>
 ```
 git push -u <remote> <branch>
 ```
->force a push when git would reject your `git push` because you changed your repo history in your pushing repository:
+>force a push when git rejects your `git push` command, because you made changes that may overwrite the previous commits, you can refer to this for more info:
+>https://git-scm.com/docs/git-push#:~:text=To%20force%20a%20push%20to,push%20to%20the%20master%20branch). 
 ```
 git push -f
 ```
