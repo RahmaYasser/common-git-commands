@@ -284,3 +284,30 @@ git clone <github_repo_url>
 
 
 
+## *Rebase*
+The `git rebase` command allows you to easily change a series of commits, modifying the history of your repository. You can reorder, edit, or squash commits together.
+>To show a list of commits, `n` is the numer of commits to work on:
+```
+git rebase -i HEAD~{n}
+```
+![1](https://user-images.githubusercontent.com/48657780/126626468-1195bbde-b8c4-4286-83fb-1655982bf71d.jpg)
+
+
+### *Squash*
+To combine two or more commits into a single commit, A commit is squashed into the commit above it:
+
+>Edit the summary shown to you by the rebase command, leaving the commit you want to be the main commit as "pick" and changing all subsequent "pick" commands as "squash" or "s"
+
+![2](https://user-images.githubusercontent.com/48657780/126628354-fdbc4a92-5fd0-432f-a8cb-c8b4b3f3c9d8.jpg)
+
+Write/quit the editor twice (the second screen would allow you to change the commit message)  <br>
+At this point, your commits are squashed into one. 
+
+![3](https://user-images.githubusercontent.com/48657780/126631425-f1a9a55e-b863-4e00-a0dd-6f287fc264df.jpg)
+
+>Run the following command to force a push of the new, consolidated commit:
+```
+git push -f
+```
+
+
