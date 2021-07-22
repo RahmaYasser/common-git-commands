@@ -180,7 +180,7 @@ git merge <branch_name>
 ```
 git branch -d <branch_name>
 ```
->to pick a specific commit from a branch to the working branch, use the following command:
+>to pick a specific commit from a branch to the working branch, use the following command,
 for more info please refer to this:
 >https://www.atlassian.com/git/tutorials/cherry-pick
 ```
