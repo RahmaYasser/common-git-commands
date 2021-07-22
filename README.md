@@ -1,8 +1,8 @@
 # Common Git commands
 
-### Created by: Rahma Yasser
+## Created by: Rahma Yasser
 
-# Sections
+### Sections
 - [Why git and github?](https://github.com/Abanoub-Asaad/common-git-commands#why-git-and-github)
 - [Git basic commands](https://github.com/Abanoub-Asaad/common-git-commands#git-basic-commands)
 - [Configuration](https://github.com/Abanoub-Asaad/common-git-commands#configuration)
