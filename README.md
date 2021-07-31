@@ -197,9 +197,9 @@ here are some diagrams illustrating the diffrence between fast forward and no fa
 
 ![before_merging](https://user-images.githubusercontent.com/49435053/127746781-79410e4c-7139-4ecd-be12-98d6f71bb3ae.png)
 
-![fast-forward](https://user-images.githubusercontent.com/49435053/127746901-b98be4a3-69b5-4af5-8bae-8b17d4e611ed.png)
+![fast-forward2](https://user-images.githubusercontent.com/49435053/127747233-b83d98c9-ac09-4963-8469-0992ce42f303.png)
 
-![no-ff](https://user-images.githubusercontent.com/49435053/127746999-e854234f-4295-46a7-ab9b-1f445160996d.png)
+![no-ff-2](https://user-images.githubusercontent.com/49435053/127747305-275c319c-c606-4d5c-bb4f-0f5cfca0ca1d.png)
 <br />
 
 >to delete a branch:
