@@ -191,7 +191,7 @@ git merge <branch_name>
 ```
 git merge --no-ff <branch_name>
 ```
->here are some diagrams illustrating the diffrence between fast forward and no fast forward:
+here are some diagrams illustrating the diffrence between fast forward and no fast forward:
 ![before_merging](https://user-images.githubusercontent.com/49435053/127746781-79410e4c-7139-4ecd-be12-98d6f71bb3ae.png)
 
 >to delete a branch:
