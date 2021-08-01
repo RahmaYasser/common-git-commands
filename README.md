@@ -4,18 +4,18 @@
 ## Created by: Rahma Yasser
 
 ### Sections
-- [Why git and github?](https://github.com/Abanoub-Asaad/common-git-commands#why-git-and-github)
-- [Git basic commands](https://github.com/Abanoub-Asaad/common-git-commands#git-basic-commands)
-- [Configuration](https://github.com/Abanoub-Asaad/common-git-commands#configuration)
-- [Removing files and directories](https://github.com/Abanoub-Asaad/common-git-commands#removing-files-and-directories)
-- [Moving and Renaming files](https://github.com/Abanoub-Asaad/common-git-commands#moving-and-renaming-files)
-- [Tags](https://github.com/Abanoub-Asaad/common-git-commands#tags)
+- [Why git and github?](https://github.com/RahmaYasser/common-git-commands#why-git-and-github)
+- [Git basic commands](https://github.com/RahmaYasser/common-git-commands#git-basic-commands)
+- [Configuration](https://github.com/RahmaYasser/common-git-commands#configuration)
+- [Removing files and directories](https://github.com/RahmaYasser/common-git-commands#removing-files-and-directories)
+- [Moving and Renaming files](https://github.com/RahmaYasser/common-git-commands#moving-and-renaming-files)
+- [Tags](https://github.com/RahmaYasser/common-git-commands#tags)
 - [Branches](https://github.com/Abanoub-Asaad/common-git-commands#branches)
-- [Aliasing](https://github.com/Abanoub-Asaad/common-git-commands#aliasing)
-- [Stash](https://github.com/Abanoub-Asaad/common-git-commands#stash)
-- [Rebase](https://github.com/Abanoub-Asaad/common-git-commands#rebase)
-- [Squash](https://github.com/Abanoub-Asaad/common-git-commands#squash)
-- [Dealing with GitHub](https://github.com/Abanoub-Asaad/common-git-commands#dealing-with-github)
+- [Aliasing](https://github.com/RahmaYasser/common-git-commands#aliasing)
+- [Stash](https://github.com/RahmaYasser/common-git-commands#stash)
+- [Rebase](https://github.com/RahmaYasser/common-git-commands#rebase)
+- [Squash](https://github.com/RahmaYasser/common-git-commands#squash)
+- [Dealing with GitHub](https://github.com/RahmaYasser/common-git-commands#dealing-with-github)
  ---
 
 ### *Why git and github?*
