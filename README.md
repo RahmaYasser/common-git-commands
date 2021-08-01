@@ -321,9 +321,13 @@ git push -f
 ```
 git clone <github_repo_url>
 ```
-You can downloads commits, files, and refs from a remote repo into your local repo without merging them using fetch command. Unlike `git pull`, `git fetch` provides you the choice of merging the downloaded commits, but `git pull` do both operations, (download+merge).
+You can download commits, branches from a remote repo into your local repo without merging them using fetch command. Unlike `git pull`, `git fetch` provides you the choice of merging the downloaded branches, but `git pull` do both operations, (download+merge).
 >To fetch all of the branches from a repo
 ```
 git fetch <repo>
+```
+>To fetch a particular branch from repo
+```
+git fetch <remote>  <branch>
 ```
 <br />  
