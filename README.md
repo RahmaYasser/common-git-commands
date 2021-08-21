@@ -10,7 +10,7 @@
 - [Removing files and directories](https://github.com/RahmaYasser/common-git-commands#removing-files-and-directories)
 - [Moving and Renaming files](https://github.com/RahmaYasser/common-git-commands#moving-and-renaming-files)
 - [Tags](https://github.com/RahmaYasser/common-git-commands#tags)
-- [Branches](https://github.com/Abanoub-Asaad/common-git-commands#branches)
+- [Branches](https://github.com/RahmaYasser/common-git-commands#branches)
 - [Aliasing](https://github.com/RahmaYasser/common-git-commands#aliasing)
 - [Stash](https://github.com/RahmaYasser/common-git-commands#stash)
 - [Rebase](https://github.com/RahmaYasser/common-git-commands#rebase)
@@ -330,4 +330,22 @@ git fetch <repo>
 ```
 git fetch <remote>  <branch>
 ```
+>To sync your forked repository with the original repository(to pull the updated code from the original repository), you can do the following:
+
+1. Make an alias for the original repository.
+   ```
+   git remote add originrepo <URL_of_the_original_repo>
+   ```
+   in this example I created an alias called 'originrepo' for the repository that I made a fork from.
+   
+2.  Use git fetch to download the changes from the original repository.
+    ```
+    git fetch originrepo
+    ```
+    note: this will add the  fetched code to your current branch, so make sure that you switch to the desired branch before using this command.
+3. Use git merge to merge the fetched changes into your local code if there are no conflicts.
+    ```
+    git merge originrepo/main main
+    ```
+    here, I merged the fetched code into main branch in my forked repo, you can use any branch.
 <br />  
