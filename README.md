@@ -193,6 +193,11 @@ Here are some diagrams illustrating the difference between fast forward and no f
 
 ![no-ff-2](https://user-images.githubusercontent.com/49435053/127747305-275c319c-c606-4d5c-bb4f-0f5cfca0ca1d.png)
 
+>To push to a branch:
+```
+git push origin <branch_name>
+```
+
 >To delete a branch:
 ```
 git branch -d <branch_name>
