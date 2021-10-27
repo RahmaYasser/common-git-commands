@@ -73,6 +73,10 @@ git status -s
 ```
 git log
 ```
+>To display the output as one commit per line:
+```
+git log --oneline
+```
 
 >To show difference between modified files, if this command isn't working properly refer to this
 > https://stackoverflow.com/questions/8544211/git-diff-doesnt-give-any-output
