@@ -73,6 +73,10 @@ git status -s
 ```
 git log
 ```
+>To display the output as one commit per line:
+```
+git log --oneline
+```
 
 >To show difference between modified files, if this command isn't working properly refer to this
 > https://stackoverflow.com/questions/8544211/git-diff-doesnt-give-any-output
@@ -192,6 +196,11 @@ Here are some diagrams illustrating the difference between fast forward and no f
 ![fast-forward2](https://user-images.githubusercontent.com/49435053/127747233-b83d98c9-ac09-4963-8469-0992ce42f303.png)
 
 ![no-ff-2](https://user-images.githubusercontent.com/49435053/127747305-275c319c-c606-4d5c-bb4f-0f5cfca0ca1d.png)
+
+>To push to a branch:
+```
+git push origin <branch_name>
+```
 
 >To delete a branch:
 ```
