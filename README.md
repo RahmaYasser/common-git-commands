@@ -180,6 +180,10 @@ git merge <branch_name>
 ```
 git branch -d <branch_name>
 ```
+>to push all your branches to the remote:
+```
+git push --all -u
+```
 <br />  
 
 ### *Aliasing*
