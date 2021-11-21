@@ -206,20 +206,12 @@ git push origin <branch_name>
 ```
 git branch -d <branch_name>
 ```
-
->to push all your branches to the remote:
-```
-git push --all -u
-```
-
 >To pick a specific commit from a branch to the working branch, use the following command,
 for more info please refer to this:
 >https://www.atlassian.com/git/tutorials/cherry-pick
 ```
 git cherry-pick <commit_reference>
 ```
-
-<br />  
 
 ### *Aliasing*
 *Giving a command an alias name means to rename a command with shorter or easier name you choose,  example: to rename 'git remote' command with 'git rmt'*
