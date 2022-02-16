@@ -16,6 +16,8 @@
 - [Rebase](https://github.com/RahmaYasser/common-git-commands#rebase)
 - [Squash](https://github.com/RahmaYasser/common-git-commands#squash)
 - [Dealing with GitHub](https://github.com/RahmaYasser/common-git-commands#dealing-with-github)
+- [Common Problems](https://github.com/RahmaYasser/common-git-commands#common-problems)
+
  ---
 
 ### *Why git and github?*
@@ -339,6 +341,8 @@ git fetch <repo>
 ```
 git fetch <remote>  <branch>
 ```
+### *Common Problems*
+
 >To sync your forked repository with the original repository(to pull the updated code from the original repository), you can do the following:
 
 1. Make an alias for the original repository.
